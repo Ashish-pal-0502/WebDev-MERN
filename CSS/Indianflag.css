@@ -1,0 +1,14 @@
+.flag{
+	background-color: #ff9933;
+	height: 600px;
+	width: 900px;
+	position: relative;
+}
+.flag > div{
+	background-color: white;
+	height: 200px;
+	width:100%;
+	position: relative;
+	top: 200px;
+	
+}

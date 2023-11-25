@@ -1,0 +1,106 @@
+h3{
+	background-color: antiquewhite !important;
+}
+
+*{
+	font-family: 'Courier New';
+}
+h2, h3{
+	color: #b92b27
+}
+#login{
+	background-color: white;
+}
+#signup{
+	background-color: #b92b27;
+}
+.upvote{
+	background-color: rgb(000, 255, 000) ;
+	color: aliceblue;
+}
+
+.post a {
+	color: green ;
+	font-family:'Gill Sans';
+	font-size: normal;
+}
+
+ 
+
+/* Facebook page design  */
+
+*{
+	font-family: 'Courier New';
+}
+h1{
+	color: #1b74e4;
+
+}
+.userbtn{
+	background-color: aqua;
+
+}
+#searchbtn{
+	background-color: black;
+	color: white;
+
+}
+.post + h3{
+	text-decoration: line-through;
+}
+
+.upvote + button {
+	background-color: blueviolet;
+	color: beige;
+}
+
+input[type="text"]{
+color: red;
+}
+input[type="password"]{
+color:yellow;
+}
+input[type]{
+	background-color:aliceblue;
+}
+/* 
+#myId p{
+	color: darkviolet;
+} */
+
+div[id=myId] p{
+	color: red;
+}
+
+button:hover{
+
+	background-color: pink;
+}
+button:active{
+	background-color: black;
+	color: blue;
+}
+input[type="radio"]:checked + label{
+	color: greenyellow;
+	font-weight: bold;
+}
+
+div:nth-of-type(){
+	background-color: palevioletred;
+}
+
+h2::first-letter{
+	color: green;
+	font-weight: bolder;
+	font-size: xx-large;
+}
+p::first-line{
+	color: red;
+}
+p::selection{
+	background-color: yellow;
+}
+
+h3{
+	background-color: red;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form tag</title>
+  </head>
+  <body>
+    <!-- <div>
+      <form action="/server">
+      <label for="username">Username :</label>
+      <input type="text" id="username" placeholder="enter username" name="user" />
+    </div>
+    <div>
+      <label for="password">password :</label>
+      <input type="password" id="password" placeholder="enter password" name="pass"/>
+    </div>
+	<button>submit</button> -->
+
+    <!-- <form action="https://www.google.com/search">
+		<input type="text" placeholder="search as such as Google" name="q">
+		<button>Search</button>
+	</form>
+    -->
+
+    <form action="/server">
+      <input type="checkbox" name="age" id="age" checked />
+      <label for="age">I am 18+</label>
+      
+
+	  <div>
+		 Check it out only one :
+		<input type="radio" name="fruit" id="apple"  value="apple"/>
+		<label for="apple">Apple</label>
+  
+		<input type="radio" name="fruit" id="mango"  value="mango"/>
+		<label for="mango">mango</label>
+  
+		<input type="radio" name="fruit" id="banana"  value="banana"/>
+		<label for="banana">banana</label>
+  
+		<input type="radio" name="fruit" id="Orange" value="Orange" >
+		<label for="oran">Orange</label>
+		<div>
+	          Choose your subjects :
+			<input type="checkbox" name="sub" id="math" value="math" />
+			<label for="math">Math</label>
+			<input type="checkbox" name="sub" id="Science" value="sci" />
+			<label for="Science">Science</label>
+			<input type="checkbox" name="sub" id="english" value="eng" />
+			<label for="english">english</label></div>
+	
+	  </div>
+
+	  <div>
+		choose your profession :
+		<select name="profession" id="profession">
+			<option value="select">select your option</option>
+			<option value="dev">developer</option>
+			<option value="gamer">gamer</option>
+			<option value="coder" selected>coder</option>
+			<option value="engineer">engineer</option>
+		</select>
+		<label for="vol">select your volume level :</label>
+		<input type="range" id="vol" min="0" max="100" name="vol" step="10" value="50">
+
+	  </div>
+	  <br>
+	  <label for="feedback">Please give your valuable feedback to us :</label>
+	  <textarea name="feedback" id="feedback" cols="30" rows="7" placeholder="Write your feedback here"></textarea>
+	 
+
+		<button type="submit">click me</button>
+
+
+    </form>
+
+    <!--radio button-->
+  
+  </body>
+</html>

@@ -1,0 +1,24 @@
+h1{
+	text-align: center;
+	text-decoration: wavy red underline;
+	/* text-decoration: line-through; */
+	letter-spacing: 2px;
+	font-family: 'Times New Roman', Times, serif;
+	
+}
+p{
+	text-align: start;
+	font-weight: 200;
+	line-height: normal;
+	font-size: 20px;
+	/* text-decoration: overline; */
+}
+h2{
+	text-align: center;
+	border: solid;
+	/* width: 74% */
+	font-size: 23px;
+}
+h3{
+	font-weight: lighter;
+}
